@@ -24,21 +24,10 @@ function Login() {
 
 .then((data) => {
   console.log(data);
-  if (console.log(data) ) {
-    alert("invalid user")
-    localStorage.setItem('token', data.token)
   Navigate("/Home")
-}  else {
-    alert("everything is ok ");
-    
-}
-  
-})
-        .catch(error =>{
-          alert('error')
-          console.error( error);
-        })
-        }
+
+         })
+          }
        
     
     return (
